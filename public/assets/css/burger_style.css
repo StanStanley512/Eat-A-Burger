@@ -36,7 +36,7 @@ body {
 }
 
 .jumbotron > h2 {
-    font-family: 'Permanent Marker', cursive;
+    font-family: 'Lobster', cursive;
     text-align: center;
     color: black;
     text-shadow:
@@ -63,7 +63,7 @@ body {
 }
 
 .create-form {
-    font-family: 'Permanent Marker', cursive;
+    font-family: 'Acme', sans-serif;
     text-align: center;
     color: black;
     text-shadow:
@@ -71,8 +71,7 @@ body {
     1px -1px 0 white,
     -1px 1px 0 white,
     1px 1px 0 white;
-
-    font-size: 1.9em;
+    font-size: 1.4em;
 }
 
 #lefthead {
