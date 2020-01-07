@@ -1,13 +1,14 @@
 // Connect Node to MySQL.
 const mysql = require("mysql");
+var connection;
 
 if (process.env.JAWSDB_URL) {
     connection = mysql.createConnection(process.env.JAWSDB_URL);
 } else {
     connection = mysql.createConnection({
         host: "localhost",
-        user: "mainuser",
-        password: "password",
+        user: "root",
+        password: "",
         database: "burgers_db"
     });
 };
